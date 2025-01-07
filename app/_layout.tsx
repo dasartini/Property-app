@@ -26,5 +26,5 @@ export default function RootLayout() {
 
   if (!fontsLoaded) return null; // Alternatively, add a loading indicator here
 
-  return <Stack />;
+  return <Stack screenOptions={{headerShown: false}} />;
 }
